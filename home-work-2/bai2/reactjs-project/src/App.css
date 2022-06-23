@@ -1,0 +1,17 @@
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contener {
+  margin: 30px 40px;
+}
+
+.content-top img {
+  width: 300px;
+}
+
+.content-bottom {
+  width: 300px;
+}
