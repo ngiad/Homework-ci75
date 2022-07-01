@@ -126,7 +126,10 @@ h3 {
 }
 
 .block-long {
+  text-align: center;
+  margin-top: 50px;
   height: 3000px;
+  font-size: 100px;
 }
 
 .scroll {
