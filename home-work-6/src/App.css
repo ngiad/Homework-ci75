@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-bg: #F2F2F2;
+  --color-text: #171717;
+  --color-hover: #c7a17a;
+  --color-span: #837e7e;
+
+  --text-title: 'PT Serif';
+}
+
+.products_list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+
+.product {
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.product>img {
+  width: 100%;
+}
